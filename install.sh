@@ -86,8 +86,8 @@ install() {
   cp -r ${SRC_DIR}/plasma/look-and-feel/com.github.vinceliuice.${name}${color}       ${LOOKFEEL_DIR}
   cp -r ${SRC_DIR}/wallpapers/${name}                                                ${WALLPAPER_DIR}
   cp -r ${SRC_DIR}/wallpapers/${name}${color}                                        ${WALLPAPER_DIR}
-  mkdir -p                                                                           ${PLASMA_DIR}/${name}${color}/wallpapers
-  cp -r ${SRC_DIR}/wallpapers/${name}${color}                                        ${PLASMA_DIR}/${name}${color}/wallpapers
+#  mkdir -p                                                                           ${PLASMA_DIR}/${name}${color}/wallpapers
+#  cp -r ${SRC_DIR}/wallpapers/${name}${color}                                        ${PLASMA_DIR}/${name}${color}/wallpapers
 
   if [[ "$UID" != "$ROOT_UID" && -d "${LATTE_DIR}" ]]; then
     if [[ -f ${LATTE_DIR}/${name}.layout.latte ]]; then
