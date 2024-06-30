@@ -1,0 +1,15 @@
+{
+    "KPackageStructure": "Plasma/Wallpaper",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "vinceliuice@hotmail.com",
+                "Name": "Vince Liuice"
+            }
+        ],
+        "Id": "MacSequoia-Dark",
+        "License": "CC-BY-SA-4.0",
+        "Name": "MacSequoia-Dark"
+    },
+    "X-KDE-PlasmaImageWallpaper-AccentColor": "#ce55cf"
+}
