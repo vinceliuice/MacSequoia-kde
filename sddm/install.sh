@@ -60,8 +60,12 @@ install () {
   prompt -s "\n * All done!"
 }
 
-name="MacSequoia"
-color="-Light" && install
-color="-Dark" && install
-echo
+if [[ "$UID" -eq "$ROOT_UID" ]]; then
+  name="MacSequoia"
+  color="-Light" && install
+  color="-Dark" && install
+  echo
+else
+  echo -e "Run this with sudo !"
+fi
 
